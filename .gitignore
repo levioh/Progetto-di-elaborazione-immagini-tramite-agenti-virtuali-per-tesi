@@ -1,0 +1,18 @@
+#Ignora tutto il contenuto della cartella
+*
+
+# Ma non ignorare il file .gitignore stesso
+!.gitignore
+
+#Non ignorare ASSOLUTAMENTE questi file specifici
+!agent_core.py
+!app.py
+!image_tools.py
+!requirements.txt
+
+#Assicurati che le cartelle di cache nascoste rimangano ignorate
+.pytest_cache/
+__pycache__/
+.streamlit/
+temp_files/
+.ipynb_checkpoints
