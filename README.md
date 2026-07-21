@@ -2,6 +2,8 @@
 
 Scaricare ollama da questo link: https://ollama.com/download
 
+digitare sulla console per scaricare i modelli llm: ollama pull llava e ollama pull moondream
+
 scaricare le librerie necessarie da bash usando questo comando: pip install -r requirements.txt
 
 Ho deciso di creare un'applicazione browser che utilizza come framework Ollama , uno strumento open source che permette di scaricare modelli AI direttamente in locale.
